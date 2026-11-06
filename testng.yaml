@@ -1,0 +1,10 @@
+name: Suite
+threadCount: 2
+parallel: methods
+configFailurePolicy: skip
+tests:
+  - name: Test
+  parallel: methods
+  classes:
+    - tests.DriverTest
+
