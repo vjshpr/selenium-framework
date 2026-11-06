@@ -14,7 +14,7 @@ public class DriverTest extends BaseTest {
 		driver = DriverManager.getDriver("chrome");
 		driver.get(ConfigReader.getProperty("googleUrl"));
 		Assert.assertTrue(driver.getCurrentUrl().contains("google"), "Not launched");
-		
+		//Adding a new line
 
 		
 	}
